@@ -4,7 +4,7 @@ let socket: Socket;
 
 export const connectToServer = (token: string) => {
   const manager = new Manager(
-    `nest-teslo-shop-production-f2c2.up.railway.app/socket.io/socket.io.js`,
+    `https://nest-teslo-shop-production-f2c2.up.railway.app/socket.io/socket.io.js`,
     {
       extraHeaders: {
         authentication: token,
