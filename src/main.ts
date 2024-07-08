@@ -1,5 +1,4 @@
 import "./style.css";
-import { setupCounter } from "./counter.ts";
 import { connectToServer } from "./socket-client.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
